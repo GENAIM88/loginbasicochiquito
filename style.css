@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  outline: none;
+  border-radius: 10px;
+}
+
+.page-title-span {
+  margin-left: 10px;
+}
+
+.button-right-icon {
+  margin-left: 10px;
+}
+
+/*Login Section */
+
+.login-cover {
+  background: url(https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_1280.jpg);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#loginProgress {
+  display: none;
+}
+
+#loginError {
+  display: none;
+}
